@@ -1,0 +1,31 @@
+{
+  "name": "reflow",
+  "version": "1.0.0",
+  "description": "Node application that controls a reflow oven",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ignore ./reflow_profiles/ --ignore ./oven_settings/ index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhu413/reflow.git"
+  },
+  "author": "Brandon Hu, Micah Rice, Mihretab Desta, Rohan Mathew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhu413/reflow/issues"
+  },
+  "homepage": "https://github.com/bhu413/reflow#readme",
+  "dependencies": {
+    "detect-rpi": "^1.4.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "node-pid-controller": "^1.0.1",
+    "nodemon": "^2.0.7",
+    "onoff": "^6.0.3",
+    "sanitize-filename": "^1.6.3",
+    "socket.io": "^4.1.2",
+    "spi-device": "^3.1.2"
+  }
+}

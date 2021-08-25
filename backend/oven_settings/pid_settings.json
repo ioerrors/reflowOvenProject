@@ -1,0 +1,12 @@
+{
+   "onoff_mode": false,
+   "p": 300,
+   "i": 0.075,
+   "d": 1360,
+   "use_cooling_fan": false,
+   "delta_t": 1,
+   "look_ahead": 5,
+   "preheat": true,
+   "preheat_power": 70,
+   "always_hit_peak": true
+}
